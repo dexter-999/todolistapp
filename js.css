@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 20, 116);
+}
+.box-notes{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 25%;
+    width: 440px;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+.box-form{
+    display: flex;
+}
+.h1{
+
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background: linear-gradient(to left,white 60%,blueviolet);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#add{
+    height: 30px;
+    width: 33px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#add:hover{
+    background-color: rgb(12, 12, 166);
+    width: 53px;
+    height: 25px;
+    border-radius: 3px;
+    transition: all 0.6s ease-in-out;
+}
+#title-notes{
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 2px;
+    color: white;
+    width: 420px;
+}
+textarea{
+    width: 380px;
+    height: 80px;
+    margin-top: 8px;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+
+}
+#output{
+    display: inline-block;
+}
+.itemm{
+    background-color: rgb(8, 86, 187);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: auto;
+    width: 350px;
+    margin-top: 5px;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+}
+.hh,.pa{
+    background-color: rgb(8, 86, 187);
+    font-size: 8px;
+}
+.hh{
+    background: linear-gradient(to left,white 50%,cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.pa{
+    width: 250px;
+    background: linear-gradient(to left,white,black 60%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.remove{
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    color: white;
+    margin: 2px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    right: 1%;
+}
+.check{
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    color: white;
+    margin: 2px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    right: 8%;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.2;
+}
+
+
